@@ -45,22 +45,22 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
-    // Bunlara şimdilik gerek yoktu
+    //
     implementation "androidx.legacy:legacy-support-v4:1.0.0"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.3"
 
     implementation "android.arch.lifecycle:extensions:1.1.1"
 
-    // RETROFIT - İnternetten veri çekmeyi ve yayınlamaya yarayan kütüphaneler
+    // RETROFIT
     implementation "com.squareup.retrofit2:retrofit:2.3.0"
     implementation "com.squareup.retrofit2:converter-gson:2.3.0"
     implementation "com.squareup.retrofit2:adapter-rxjava2:2.3.0"
 
-    // RXJAVA - Retrofit için ek/yardımcı kütüphaneler
+    // RXJAVA
     implementation "io.reactivex.rxjava2:rxjava:2.1.1"
     implementation "io.reactivex.rxjava2:rxandroid:2.1.1"
 
-    // GLIDE - Görsellerde kullanılacak olan kütüphane
+    // GLIDE
     implementation "com.github.bumptech.glide:glide:4.12.0"
 
 }
