@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Retrofit_Whether</string>
+    <string name="error_message">Error, Try Again!</string>
+</resources>
